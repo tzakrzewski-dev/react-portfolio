@@ -141,7 +141,7 @@ const DesignerPortfolio = () => {
               <div className="col-lg-3 col-md-6 col-12" key={i}>
                 <div className="portfolio-style--3">
                   <div className="thumbnail">
-                    <a>
+                    <a href={value.link}>
                       <img
                         className="w-100"
                         src={`${value.images}`}
