@@ -59,7 +59,7 @@ const CreativePortfolio = () => {
                     >
                       <img
                         className="w-100"
-                        src={`/assets/images/portfolio/portfolio-${value.images}.png`}
+                        src={`assets/images/portfolio/portfolio-${value.images}.png`}
                         alt="Portfolio Images"
                       />
                     </a>
