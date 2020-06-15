@@ -15,7 +15,7 @@ import Presentation from "./Components/Presentation";
 class Root extends Component {
   render() {
     return (
-      <BrowserRouter basename={"/"}>
+      <BrowserRouter>
         <Switch>
           <Route
             exact
