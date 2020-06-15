@@ -19,7 +19,7 @@ class Root extends Component {
         <Switch>
           <Route
             exact
-            path={`${process.env.PUBLIC_URL}/portfolio-details/:category/:id`}
+            path={`${process.env.PUBLIC_URL}/portfolio-details/:id`}
             component={PortfolioDetails}
           />
           <Route
