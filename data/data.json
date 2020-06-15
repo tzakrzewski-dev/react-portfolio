@@ -1,0 +1,264 @@
+{
+  "PortfolioList": [
+    {
+      "id": 2,
+      "images": 1,
+      "category": "Site vitrine",
+      "title": "Landing Page Site Mika piscine",
+      "header_title": "Mika Piscines",
+      "header_paragraphe": "Le spécialiste de la rénovation de piscine ",
+      "customer": "Mika Piscines",
+      "title_theme_gradient": "",
+      "subtitle": "Création d'une landing page responsive",
+      "date": "Mars 2020",
+      "logiciels": "Vscode/Git",
+      "technos": "Html,Css",
+      "framework": "Aucun",
+      "poster_video": "/assets/images/portfolio/portfolio-video-01.png",
+      "videolink": "/assets/video/mika-piscine.webm",
+      "images_1": "/assets/images/portfolio/portfolio-big-01.png",
+      "images_2": "/assets/images/portfolio/portfolio-ipad-01.png",
+      "images_3": "/assets/images/portfolio/portfolio-iphone11-01.png"
+    },
+    {
+      "id": 3,
+      "images": "2",
+      "category": "Site vitrine",
+      "title": "Landing Page Site Artenobilia",
+      "header_title": "Artenobilia",
+      "header_paragraphe": "Design & Métiers d'art ",
+      "customer": "Artenobilia",
+      "title_theme_gradient": "",
+      "subtitle": "Création d'une landing page responsive pour une galerie d'art avec respecter de la charte graphique. Structure de la page avec un header, une mosaïque « catalogue », les nouveaux produits, une présentation de l'exposition , un footer avec formulaire de contact",
+      "date": "Mars 2020",
+      "logiciels": "Vscode/Git",
+      "technos": "Html,Css",
+      "framework": "Aucun",
+      "poster_video": "/assets/images/portfolio/portfolio-video-02.png",
+      "videolink": "/assets/video/artenobilia.webm",
+      "images_1": "/assets/images/portfolio/portfolio-big-02.png",
+      "images_2": "/assets/images/portfolio/portfolio-ipad-02.png",
+      "images_3": "/assets/images/portfolio/portfolio-iphone11-02.png"
+    },
+    {
+      "id": 4,
+      "images": "3",
+      "category": "Application Web",
+      "title": "Site Ecommerce",
+      "header_title": "Amazon pas cher",
+      "header_paragraphe": "Site Ecommerce",
+
+      "customer": "Amazon pas cher",
+      "title_theme_gradient": "",
+
+      "subtitle": "Création d'un site ecommerce en stack MERN ,avec coté front-end fiches produit, pages catégories, mise au panier avec ajout & suppression de produits. Coté back-end, création d'une base de donnée sous MongoDb,Express & Mangoose pour la partie MVC, fetch des datas dans le front",
+      "date": "Avril 2020",
+      "logiciels": "Vscode/Git",
+      "technos": "React",
+      "framework": "Bootstrap/Redux",
+      "poster_video": "/assets/images/portfolio/portfolio-video-03.png",
+      "videolink": "/assets/video/amazon.webm",
+      "images_1": "/assets/images/portfolio/portfolio-big-03.png",
+      "images_2": "/assets/images/portfolio/portfolio-ipad-03.png",
+      "images_3": "/assets/images/portfolio/portfolio-big-03-1.png"
+    },
+    {
+      "id": 5,
+      "images": "4",
+      "category": "Application Web",
+      "title": "Site Cannes Is Up",
+      "header_title": "Cannes Is Up",
+      "header_paragraphe": "Application Web",
+      "customer": "Cannes Is Up",
+      "title_theme_gradient": "",
+      "subtitle": "Création d'un annuaire avec barre de recherche et finscroll, d'une fiche détaillée , d'un backoffice adhérent & admin pour gérer les informations et status. Les adhérents ont été remplacés par des personnages de la saga Harry Potter pour des raisons de confidentialité",
+      "date": "Mai 2020",
+      "logiciels": "Vscode/Git",
+      "technos": "React",
+      "framework": "Bootstrap/SyncFusion",
+      "poster_video": "/assets/images/portfolio/portfolio-video-04.png",
+      "videolink": "/assets/video/cannesisup.webm",
+      "images_1": "/assets/images/portfolio/portfolio-big-04.png",
+      "images_2": "/assets/images/portfolio/portfolio-ipad-04.png",
+      "images_3": "/assets/images/portfolio/portfolio-big-04-1.png"
+    },
+    {
+      "id": 6,
+      "images": "5",
+      "category": "Application Mobile",
+      "title": "Application météo",
+      "header_title": "Openweather",
+      "header_paragraphe": "Application Mobile Native Cross-Platforme Android",
+      "customer": "Application Météo",
+      "title_theme_gradient": "",
+      "subtitle": "Réalisation d’une application mobile météo en Cross-Platforme sur ReactNative avec prévision météo du jour & 5 jours alimentés par l’API openweather",
+      "date": "Mai 2020",
+      "logiciels": "Vscode/Git",
+      "technos": "ReactNative",
+      "framework": "NativeBase",
+      "poster_video": "",
+      "videolink": "/assets/video/meteo.webm",
+      "images_1": "/assets/images/portfolio/portfolio-big-05.png",
+      "images_2": "",
+      "images_3": ""
+    },
+    {
+      "id": 7,
+      "images": "6",
+      "category": "Application Mobile",
+      "title": "Configurateur Mercedes",
+      "header_title": "Mercedes",
+      "header_paragraphe": "Application Mobile Native Cross-Platforme Android",
+      "customer": "Mercedes",
+      "title_theme_gradient": "",
+      "subtitle": "Réalisation d’une application mobile comportant la liste des modèles de véhicule Mercedes par l’API Mercedes pour developpeur",
+      "date": "Mai 2020",
+      "logiciels": "Vscode/Git",
+      "technos": "ReactNative",
+      "framework": "NativeBase",
+      "poster_video": "",
+      "videolink": "/assets/video/mercedes.webm",
+      "images_1": "/assets/images/portfolio/portfolio-big-06.png",
+      "images_2": "/assets/images/portfolio/portfolio-big-06-1.png",
+      "images_3": "/assets/images/portfolio/portfolio-big-06-2.png"
+    },
+    {
+      "id": 8,
+      "images": "7",
+      "category": "Application Web",
+      "title": "Configurateur Peugeot Three.js",
+      "header_title": "Peugeot",
+      "header_paragraphe": "Application Web",
+      "customer": "Peugeot",
+      "title_theme_gradient": "",
+      "subtitle": "Réalisation d'un configurateur de véhicule pour choisir la  couleur des éléments. Travail du modèle 3D sous Blender pour identifier les élements sur lesquels on souhaite agir ",
+      "date": "Mai 2020",
+      "logiciels": "Vscode/Git",
+      "technos": "React,",
+      "framework": "Three.js",
+      "poster_video": "",
+      "videolink": "/assets/video/configurateur.webm",
+      "images_1": "/assets/images/portfolio/portfolio-big-07.png",
+      "images_2": "/assets/images/portfolio/portfolio-big-07-1.png",
+      "images_3": "/assets/images/portfolio/portfolio-big-07-2.png"
+    }
+  ],
+  "imageSlide": [
+    { "id": 1, "images": "/assets/images/portfolio/slide1.png" },
+    { "id": 2, "images": "/assets/images/portfolio/slide2.png" },
+    { "id": 3, "images": "/assets/images/portfolio/slide3.png" },
+    { "id": 4, "images": "/assets/images/portfolio/slide4.png" },
+    { "id": 5, "images": "/assets/images/portfolio/slide5.png" }
+  ],
+  "presentation": [
+    {
+      "textPosition": "text-left",
+      "category": "Bienvenue sur mon portfolio développé en React ",
+      "description": "Passionné par le web, les nouvelles technologies, le rendu 3D et les configurateurs produits, je prends plaisir chaque jour à coder et relever des challenges.",
+      "description2": "Je suis en veille technologique régulière afin de tester de nombreuses technos dans le but d'évaluer leurs maturitées, forces et faiblesses. Ceci permet de pouvoir proposer les meilleures solutions pour répondre aux cahiers des charges.",
+      "buttonText": "",
+      "buttonLink": ""
+    }
+  ],
+  "imageSkills": [
+    {
+      "id": 1,
+      "images": "/assets/images/skills/git.png",
+      "category": "Versionning / Collaboratif",
+      "name": "Git & Github",
+      "use": "Systèmes de gestion de version distribuée",
+      "link": "https://git-scm.com/"
+    },
+    {
+      "id": 2,
+      "images": "/assets/images/skills/html.png",
+      "name": "Html5/Css3/JavaScript",
+      "category": "Langages",
+      "use": "Langages du developpeur Web pour concevoir un projet",
+      "link": "https://developer.mozilla.org/fr/docs/Web/JavaScript"
+    },
+    {
+      "id": 3,
+      "images": "/assets/images/skills/mern.png",
+      "name": "MERN",
+      "category": "Technologies",
+      "use": "Technologies pour développer et faire fonctionner un programme",
+      "link": "https://www.bocasay.com/fr/comment-fonctionne-mern-stack/"
+    },
+    {
+      "id": 4,
+      "images": "/assets/images/skills/framework.png",
+      "name": "Bootstrap/Material UI/MDB/Materialize",
+      "category": "Frameworks Web JavaScript",
+      "use": "Bibliothèques d'outils et méthodes pour le développement Web",
+      "link": "https://getbootstrap.com/"
+    },
+    {
+      "id": 5,
+      "images": "/assets/images/skills/nativebase.png",
+      "name": "NativeBase",
+      "category": "Framework Mobile JavaScript",
+      "use": "Bibliothèques d'outils et méthodes pour le développement Mobile Natif",
+      "link": "https://nativebase.io/"
+    },
+    {
+      "id": 6,
+      "images": "/assets/images/skills/reactnative.png",
+      "name": "ReactNative",
+      "category": "Technologies",
+      "use": "Framework pour développement d'applications mobiles natives",
+      "link": "https://reactnative.dev/"
+    },
+    {
+      "id": 7,
+      "images": "/assets/images/skills/scrum.png",
+      "name": "Trello/Scrum",
+      "category": "Gestion de projets",
+      "use": "Outil & méthode Agile de gestion de projets informatiques",
+      "link": "https://www.scrum.org/"
+    },
+    {
+      "id": 8,
+      "images": "/assets/images/skills/opquast.png",
+      "name": "Opquast",
+      "category": "Certification",
+      "use": "Certification de compétences des métiers du Web",
+      "link": "https://www.scrum.org/"
+    }
+  ],
+  "imageNewTechnos": [
+    {
+      "id": 1,
+      "images": "/assets/images/skills/vuejs.png",
+      "name": "Vue.js",
+      "category": "Framework Web JavaScript",
+      "use": "  Framework javascript utilisable en intégration ou seul",
+      "link": "https://vuejs.org/"
+    },
+    {
+      "id": 2,
+      "images": "/assets/images/skills/php.png",
+      "name": "PHP",
+      "category": "Langage",
+      "use": "Langage de scripts intégrable au Html pour le develeppement d'applications Web",
+      "link": "https://www.php.net/"
+    },
+    {
+      "id": 3,
+      "images": "/assets/images/skills/threejs.png",
+      "name": "Three.js",
+      "category": "Framework Web JavaScript",
+      "use": "Bibliothèque JavaScript pour créer des scènes 3D dans un navigateur web",
+      "link": "https://threejs.org/"
+    },
+
+    {
+      "id": 4,
+      "images": "/assets/images/skills/verge3d.png",
+      "name": "Verge3D",
+      "category": "Rendu 3D",
+      "use": "Moteur de rendu pour créer des expériences 3D dans un navigateur web",
+      "link": "https://www.soft8soft.com/"
+    }
+  ]
+}
