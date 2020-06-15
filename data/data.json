@@ -144,11 +144,11 @@
     }
   ],
   "imageSlide": [
-    { "id": 1, "images": "/assets/images/portfolio/slide1.png" },
-    { "id": 2, "images": "/assets/images/portfolio/slide2.png" },
-    { "id": 3, "images": "/assets/images/portfolio/slide3.png" },
-    { "id": 4, "images": "/assets/images/portfolio/slide4.png" },
-    { "id": 5, "images": "/assets/images/portfolio/slide5.png" }
+    { "id": 1, "images": "assets/images/portfolio/slide1.png" },
+    { "id": 2, "images": "assets/images/portfolio/slide2.png" },
+    { "id": 3, "images": "assets/images/portfolio/slide3.png" },
+    { "id": 4, "images": "assets/images/portfolio/slide4.png" },
+    { "id": 5, "images": "assets/images/portfolio/slide5.png" }
   ],
   "presentation": [
     {
