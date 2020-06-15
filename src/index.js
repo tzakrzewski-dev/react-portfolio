@@ -19,23 +19,23 @@ class Root extends Component {
         <Switch>
           <Route
             exact
-            path={`${process.env.PUBLIC_URL}/portfolio-details/:id`}
-            component={PortfolioDetails}
-          />
-          <Route
-            exact
             path={`${process.env.PUBLIC_URL}/`}
             component={CreativePortfolio}
           />
           <Route
             exact
-            path={`${process.env.PUBLIC_URL}/three`}
-            component={Configurator}
+            path={`${process.env.PUBLIC_URL}/:id`}
+            component={PortfolioDetails}
           />
           <Route
             exact
             path={`${process.env.PUBLIC_URL}/presentation`}
             component={Presentation}
+          />
+          <Route
+            exact
+            path={`${process.env.PUBLIC_URL}/three`}
+            component={Configurator}
           />
         </Switch>
       </BrowserRouter>

@@ -55,7 +55,7 @@ const CreativePortfolio = () => {
                 <div className="portfolio-style--3">
                   <div className="thumbnail">
                     <a
-                      href={`/portfolio-details/${value.id}`}
+                      href={`/${value.id}`}
                     >
                       <img
                         className="w-100"
@@ -68,7 +68,7 @@ const CreativePortfolio = () => {
                     <p className="portfoliotype">{value.category}</p>
                     <h4 className="title">
                       <a
-                        href={`/portfolio-details/${value.id}`}
+                        href={`/${value.id}`}
                       >
                         {value.title}
                       </a>
@@ -76,7 +76,7 @@ const CreativePortfolio = () => {
                     <div className="portfolio-btn">
                       <a
                         className="rn-btn text-white"
-                        href={`/portfolio-details/${value.id}`}
+                        href={`/${value.id}`}
                       >
                         En savoir plus
                       </a>

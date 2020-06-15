@@ -53,37 +53,37 @@ class Header extends Component {
                   <Link to="#">Mes Projets</Link>
                   <ul className="submenu">
                     <li>
-                      <Link to="/portfolio-details/2">
+                      <Link to="/2">
                         Mika Piscine
                       </Link>
                     </li>
                     <li>
-                      <Link to="/portfolio-details/3">
+                      <Link to="/3">
                         ArteNobilia
                       </Link>
                     </li>
                     <li>
-                      <Link to="/portfolio-details/4">
+                      <Link to="/4">
                         Ecommerce
                       </Link>
                     </li>
                     <li>
-                      <Link to="/portfolio-details/5">
+                      <Link to="/5">
                         Cannes Is Up
                       </Link>
                     </li>
                     <li>
-                      <Link to="/portfolio-details/6">
+                      <Link to="/6">
                         Application météo
                       </Link>
                     </li>
                     <li>
-                      <Link to="/portfolio-details/7">
+                      <Link to="/7">
                         Application Mercedes
                       </Link>
                     </li>
                     <li>
-                      <Link to="/portfolio-details/8">
+                      <Link to="/8">
                         Configurateur 3008
                       </Link>
                     </li>
