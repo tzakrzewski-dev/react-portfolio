@@ -30,7 +30,7 @@ const DesignerPortfolio = () => {
                 <div className="col-lg-5">
                   <div className="designer-thumbnail text-center">
                     <img
-                      src={`/assets/images/apropos/teddy.jpg`}
+                      src={`${process.env.PUBLIC_URL}/assets/images/apropos/teddy.jpg`}
                       alt="Teddy Zakrzewski"
                     />
                   </div>
@@ -41,10 +41,20 @@ const DesignerPortfolio = () => {
                     <h1 className="title" style={{ fontSize: "40px" }}>
                       Bonjour, je m'appelle Teddy.
                       <br />
-                      <TextLoop>
-                        <span>Developpeur Full Stack JavaScript.</span>
-                        <span>Front-End & Back-End. </span>
-                        <span>Je réside sur la Côte d'Azur.</span>
+                      <TextLoop
+                        interval={1500}
+                        springConfig={{ stiffness: 180, damping: 8 }}
+                        fade={true}
+                      >
+                        <span >
+                          Developpeur Full Stack JavaScript.
+                        </span>
+                        <span >
+                          Front-End & Back-End.{" "}
+                        </span>
+                        <span >
+                          Je réside sur la Côte d'Azur.
+                        </span>
                       </TextLoop>{" "}
                     </h1>
 
@@ -99,17 +109,17 @@ const DesignerPortfolio = () => {
                     <a href={value.link}>
                       <img
                         className="w-100"
-                        src={`${process.env.PUBLIC_URL}/${value.images}`}
+                        src={`${process.env.PUBLIC_URL}${value.images}`}
                         alt="Portfolio Images"
                       />
                     </a>
                   </div>
                   <div className="content">
-                    <h3 >{value.category}</h3>
+                    <h4 className="portfoliotype">{value.category}</h4>
                     <h4>{value.name}</h4>
-                    <h5 className="title " >
-                      <a href={value.link}>{value.use}</a>
-                    </h5>
+                    <h4 className="title">
+                      <a href={value.link}>{value.use} </a>
+                    </h4>
                     <div className="portfolio-btn">
                       <a className="rn-btn text-white" href={value.link}>
                         En savoir plus
@@ -150,11 +160,11 @@ const DesignerPortfolio = () => {
                     </a>
                   </div>
                   <div className="content">
-                    <h3 >{value.category}</h3>
+                    <h4>{value.category}</h4>
                     <h4>{value.name}</h4>
-                    <h5 className="title">
+                    <h4 className="title">
                       <a href={value.link}>{value.use}</a>
-                    </h5>
+                    </h4>
                     <div className="portfolio-btn">
                       <a className="rn-btn text-white" href={value.link}>
                         En savoir plus
@@ -174,8 +184,8 @@ const DesignerPortfolio = () => {
       {/* End Footer Style  */}
 
       {/* Start Back To Top */}
-      <div className="backto-top">
-        <ScrollToTop showUnder={160}>
+      <div className="backto-top" style={{ fontSize: 50 }}>
+        <ScrollToTop showUnder={160} style={{ bottom: "100px", zIndex: 2000 }}>
           <FiChevronUp />
         </ScrollToTop>
       </div>

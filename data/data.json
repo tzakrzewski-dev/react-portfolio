@@ -198,7 +198,7 @@
       "images": "assets/images/skills/nativebase.png",
       "name": "NativeBase",
       "category": "Framework Mobile JavaScript",
-      "use": "Bibliothèques d'outils et méthodes pour le développement Mobile Natif",
+      "use": "Bibliothèques pour le développement Mobile Natif",
       "link": "https://nativebase.io/"
     },
     {
@@ -206,7 +206,7 @@
       "images": "assets/images/skills/reactnative.png",
       "name": "ReactNative",
       "category": "Technologies",
-      "use": "Framework pour développement d'applications mobiles natives",
+      "use": "Framework pour applications mobiles natives",
       "link": "https://reactnative.dev/"
     },
     {
@@ -232,7 +232,7 @@
       "images": "assets/images/skills/vuejs.png",
       "name": "Vue.js",
       "category": "Framework Web JavaScript",
-      "use": "  Framework javascript utilisable en intégration ou seul",
+      "use": "  Framework JavaScript pour interface utilisateur utilisable de façon incrémental ou seul",
       "link": "https://vuejs.org/"
     },
     {

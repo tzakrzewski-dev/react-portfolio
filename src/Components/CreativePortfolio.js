@@ -64,14 +64,14 @@ const CreativePortfolio = () => {
                     </a>
                   </div>
                   <div className="content">
-                    <h3 className="portfoliotype">{value.category}</h3>
-                    <h5 className="title">
+                    <h4 className="portfoliotype">{value.category}</h4>
+                    <h4 className="title">
                       <a
                         href={`${process.env.PUBLIC_URL}/portfolio-detail/${value.id}`}
                       >
                         {value.title}
                       </a>
-                    </h5>
+                    </h4>
                     <div className="portfolio-btn">
                       <a
                         className="rn-btn text-white"

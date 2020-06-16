@@ -332,7 +332,7 @@
             ul {
                 &.mainmenu {
                     @media #{$md-layout} {
-                        width: 60vw;
+                        width: 40vw;
                         height: 100vh;
                         position: fixed;
                         top: 0;
@@ -347,7 +347,7 @@
                         overflow-y: auto;
                     }
                     @media #{$sm-layout} {
-                        width: 60vw;
+                        width: 40vw;
                         height: 100vh;
                         position: fixed;
                         top: 0;

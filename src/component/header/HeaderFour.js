@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import { FiX, FiMenu } from "react-icons/fi";
+import { FaHome, FaUser, FaIdBadge, FaEnvelope,FaProjectDiagram } from "react-icons/fa";
 
 class HeaderFour extends Component {
   constructor(props) {
@@ -75,7 +76,7 @@ class HeaderFour extends Component {
         <div className="header-wrapper" id="header-wrapper">
           <div className="header-left">
             <div className="logo">
-              <a  href={`${process.env.PUBLIC_URL}/assets/models/cv.pdf`}>
+              <a href={`${process.env.PUBLIC_URL}/`}>
                 <h3 className="title" style={{ color: "#1da1f2" }}>
                   Teddy <strong> Zakrzewski</strong>
                 </h3>
@@ -86,8 +87,14 @@ class HeaderFour extends Component {
           <div className="header-right">
             <nav className="mainmenunav d-lg-block">
               <ul className="mainmenu">
+                <li>
+                  <Link to={`${process.env.PUBLIC_URL}/`}>
+                    <FaHome size={30} />
+                    Acceuil{" "}
+                  </Link>
+                </li>
                 <li className="has-droupdown">
-                  <Link to="#">Mes Projets</Link>
+                  <Link to="#"><FaProjectDiagram size={30}/>Mes Projets</Link>
                   <ul className="submenu">
                     <li>
                       <Link to={`${process.env.PUBLIC_URL}/portfolio-detail/2`}>
@@ -127,10 +134,16 @@ class HeaderFour extends Component {
                   </ul>
                 </li>
                 <li>
-                  <Link to={`${process.env.PUBLIC_URL}/presentation`}>A propos</Link>
+                  <Link to={`${process.env.PUBLIC_URL}/presentation`}>
+                    <FaUser size={30} /> A propos{" "}
+                  </Link>
                 </li>
-                <li >
-                  <a href="/assets/models/cv.pdf" download>
+                <li>
+                  <a
+                    href={`${process.env.PUBLIC_URL}/assets/models/cv.pdf`}
+                    download
+                  >
+                    <FaIdBadge size={30} />{" "}
                     <span className="txtmenu ">Mon CV</span>
                   </a>
                 </li>
@@ -138,6 +151,7 @@ class HeaderFour extends Component {
                 <li>
                   <a href="mailto:contact@cannesisup.com">
                     {" "}
+                    <FaEnvelope size={30} />{" "}
                     <span className="txtmenu ">Contact</span>
                   </a>
                 </li>
