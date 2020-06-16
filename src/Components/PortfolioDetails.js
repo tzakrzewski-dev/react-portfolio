@@ -89,8 +89,8 @@ class PortfolioDetails extends Component {
           <Header headertransparent="header--transparent" />
           {/* Start Breadcrump Area */}
           <div
-            className={`rn-page-title-area pt--120 pb--190 bg_image bg_image--${item.id}`}
-            data-black-overlay="7"
+            className={`rn-page-title-area pt--120 pb--190 bg_image `}
+            data-black-overlay="7" style={{backgroundImage: `url(${process.env.PUBLIC_URL}/assets/images/bg/bg-image-${item.id}.jpg )`}}
           >
             <div className="container">
               <div className="row">
@@ -160,7 +160,8 @@ class PortfolioDetails extends Component {
                         {item.videolink && (
                           <Player
                             playsInline
-                            poster={item.poster_video}
+                            poster={`${process.env.PUBLIC_URL}/${item.poster_video}`}
+                            autoplay
                             src={`${process.env.PUBLIC_URL}/${item.videolink}`}
                           />
                         )}

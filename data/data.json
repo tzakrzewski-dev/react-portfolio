@@ -18,7 +18,7 @@
       "videolink": "assets/video/mika-piscine.webm",
       "images_1": "assets/images/portfolio/portfolio-big-01.png",
       "images_2": "assets/images/portfolio/portfolio-ipad-01.png",
-      "images_3": "assets/images/portfolio/portfolio-iphone11-01.png"
+      "images_3": "assets/images/portfolio/portfolio-iphone11-01.jpg"
     },
     {
       "id": 3,
@@ -38,7 +38,7 @@
       "videolink": "assets/video/artenobilia.webm",
       "images_1": "assets/images/portfolio/portfolio-big-02.png",
       "images_2": "assets/images/portfolio/portfolio-ipad-02.png",
-      "images_3": "assets/images/portfolio/portfolio-iphone11-02.png"
+      "images_3": "assets/images/portfolio/portfolio-iphone11-02.jpg"
     },
     {
       "id": 4,
@@ -136,7 +136,7 @@
       "logiciels": "Vscode/Git",
       "technos": "React,",
       "framework": "Three.js",
-      "poster_video": "",
+      "poster_video": "assets/images/portfolio/portfolio-video-07.jpg",
       "videolink": "assets/video/configurateur.webm",
       "images_1": "assets/images/portfolio/portfolio-big-07.png",
       "images_2": "assets/images/portfolio/portfolio-big-07-1.png",
@@ -144,11 +144,11 @@
     }
   ],
   "imageSlide": [
-    { "id": 1, "images": "assets/images/portfolio/slide1.png" },
-    { "id": 2, "images": "assets/images/portfolio/slide2.png" },
-    { "id": 3, "images": "assets/images/portfolio/slide3.png" },
-    { "id": 4, "images": "assets/images/portfolio/slide4.png" },
-    { "id": 5, "images": "assets/images/portfolio/slide5.png" }
+    { "id": 1, "images": "assets/images/portfolio/slide1.jpg" },
+    { "id": 2, "images": "assets/images/portfolio/slide2.jpg" },
+    { "id": 3, "images": "assets/images/portfolio/slide3.jpg" },
+    { "id": 4, "images": "assets/images/portfolio/slide4.jpg" },
+    { "id": 5, "images": "assets/images/portfolio/slide5.jpg" }
   ],
   "presentation": [
     {
