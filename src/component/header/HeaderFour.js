@@ -75,7 +75,7 @@ class HeaderFour extends Component {
         <div className="header-wrapper" id="header-wrapper">
           <div className="header-left">
             <div className="logo">
-              <a href="/">
+              <a href={`${process.env.PUBLIC_URL}`}>
                 <h3 className="title" style={{ color: "#1da1f2" }}>
                   Teddy <strong> Zakrzewski</strong>
                 </h3>

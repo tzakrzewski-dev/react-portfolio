@@ -30,7 +30,7 @@ const DesignerPortfolio = () => {
                 <div className="col-lg-5">
                   <div className="designer-thumbnail text-center">
                     <img
-                      src="/assets/images/apropos/teddy.jpg"
+                      src={`${process.env.PUBLIC_URL}assets/images/apropos/teddy.jpg`}
                       alt="Teddy Zakrzewski"
                     />
                   </div>
@@ -106,7 +106,7 @@ const DesignerPortfolio = () => {
                   </div>
                   <div className="content">
                     <h3 style={{ color: "#f7f7f7" }}>{value.category}</h3>
-                    <h4 >{value.name}</h4>
+                    <h4>{value.name}</h4>
                     <h5 className="title " style={{ color: "#f7f7f7" }}>
                       <a href={value.link}>{value.use}</a>
                     </h5>
