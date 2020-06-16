@@ -99,15 +99,15 @@ const DesignerPortfolio = () => {
                     <a href={value.link}>
                       <img
                         className="w-100"
-                        src={`${value.images}`}
+                        src={`${process.env.PUBLIC_URL}/${value.images}`}
                         alt="Portfolio Images"
                       />
                     </a>
                   </div>
                   <div className="content">
-                    <h3 style={{ color: "#f7f7f7" }}>{value.category}</h3>
+                    <h3 >{value.category}</h3>
                     <h4>{value.name}</h4>
-                    <h5 className="title " style={{ color: "#f7f7f7" }}>
+                    <h5 className="title " >
                       <a href={value.link}>{value.use}</a>
                     </h5>
                     <div className="portfolio-btn">
@@ -150,9 +150,9 @@ const DesignerPortfolio = () => {
                     </a>
                   </div>
                   <div className="content">
-                    <h3 style={{ color: "#f7f7f7" }}>{value.category}</h3>
+                    <h3 >{value.category}</h3>
                     <h4>{value.name}</h4>
-                    <h5 className="title" style={{ color: "#f7f7f7" }}>
+                    <h5 className="title">
                       <a href={value.link}>{value.use}</a>
                     </h5>
                     <div className="portfolio-btn">
