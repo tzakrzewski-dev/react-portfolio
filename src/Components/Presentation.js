@@ -109,7 +109,7 @@ const DesignerPortfolio = () => {
                     <a href={value.link}>
                       <img
                         className="w-100"
-                        src={`${process.env.PUBLIC_URL}${value.images}`}
+                        src={`${value.images}`}
                         alt="Portfolio Images"
                       />
                     </a>
