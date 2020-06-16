@@ -1,7 +1,13 @@
 import React, { Component } from "react";
 import { Link } from "react-router-dom";
 import { FiX, FiMenu } from "react-icons/fi";
-import { FaHome, FaUser, FaIdBadge, FaEnvelope,FaProjectDiagram } from "react-icons/fa";
+import {
+  FaHome,
+  FaUser,
+  FaIdBadge,
+  FaEnvelope,
+  FaProjectDiagram,
+} from "react-icons/fa";
 
 class HeaderFour extends Component {
   constructor(props) {
@@ -90,11 +96,14 @@ class HeaderFour extends Component {
                 <li>
                   <Link to={`${process.env.PUBLIC_URL}/`}>
                     <FaHome size={30} />
-                    Acceuil{" "}
+                    Accueil{" "}
                   </Link>
                 </li>
                 <li className="has-droupdown">
-                  <Link to="#"><FaProjectDiagram size={30}/>Mes Projets</Link>
+                  <Link to="#">
+                    <FaProjectDiagram size={30} />
+                    Mes Projets
+                  </Link>
                   <ul className="submenu">
                     <li>
                       <Link to={`${process.env.PUBLIC_URL}/portfolio-detail/2`}>

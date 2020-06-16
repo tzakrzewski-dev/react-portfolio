@@ -59,7 +59,7 @@ class Header extends Component {
                 <li>
                   <Link to={`${process.env.PUBLIC_URL}/`}>
                     <FaHome size={30} />
-                    Acceuil{" "}
+                    Accueil{" "}
                   </Link>
                 </li>
                 <li className="has-droupdown">
