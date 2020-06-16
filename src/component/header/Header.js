@@ -39,7 +39,7 @@ class Header extends Component {
         <div className="header-wrapper" id="header-wrapper">
           <div className="header-left">
             <div className="logo">
-              <a href="/">
+              <a href={`${process.env.PUBLIC_URL}`}>
                 <h3 className="title" style={{ color: "#1da1f2" }}>
                   Teddy <strong> Zakrzewski</strong>
                 </h3>
@@ -53,7 +53,7 @@ class Header extends Component {
                   <Link to="#">Mes Projets</Link>
                   <ul className="submenu">
                     <li>
-                      <Link to= {`${process.env.PUBLIC_URL}/portfolio-detail/2`}>
+                      <Link to={`${process.env.PUBLIC_URL}/portfolio-detail/2`}>
                         Mika Piscine
                       </Link>
                     </li>
@@ -89,11 +89,16 @@ class Header extends Component {
                     </li>
                   </ul>
                 </li>
-                <li >
-                  <Link to={`${process.env.PUBLIC_URL}/presentation`}>A propos</Link>
+                <li>
+                  <Link to={`${process.env.PUBLIC_URL}/presentation`}>
+                    A propos
+                  </Link>
                 </li>
                 <li>
-                  <a href="/assets/models/cv.pdf" download>
+                  <a
+                    href={`${process.env.PUBLIC_URL}/assets/models/cv.pdf`}
+                    download
+                  >
                     <span className="txtmenu ">Mon CV</span>
                   </a>
                 </li>

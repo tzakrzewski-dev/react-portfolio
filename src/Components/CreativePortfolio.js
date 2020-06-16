@@ -54,12 +54,10 @@ const CreativePortfolio = () => {
               <div className="col-lg-3 col-md-6 col-12" key={i}>
                 <div className="portfolio-style--3">
                   <div className="thumbnail">
-                    <a
-                      href={`/portefolio-detail/${value.id}`}
-                    >
+                    <a href={`${process.env.NODE_ENV}/portfolio-detail/${value.id}`}>
                       <img
                         className="w-100"
-                        src={`${process.env.PUBLIC_URL}/assets/images/portfolio/portfolio-${value.images}.png`}
+                        src={`${process.env.NODE_ENV}/assets/images/portfolio/portfolio-${value.images}.png`}
                         alt="Portfolio Images"
                       />
                     </a>
@@ -68,7 +66,7 @@ const CreativePortfolio = () => {
                     <p className="portfoliotype">{value.category}</p>
                     <h4 className="title">
                       <a
-                        href={`${process.env.PUBLIC_URL}/portfolio-detail/${value.id}`}
+                        href={`${process.env.NODE_ENV}/portfolio-detail/${value.id}`}
                       >
                         {value.title}
                       </a>
@@ -76,7 +74,7 @@ const CreativePortfolio = () => {
                     <div className="portfolio-btn">
                       <a
                         className="rn-btn text-white"
-                        href={`${process.env.PUBLIC_URL}/portfolio-detail/${value.id}`}
+                        href={`${process.env.NODE_ENV}/portfolio-detail/${value.id}`}
                       >
                         En savoir plus
                       </a>
