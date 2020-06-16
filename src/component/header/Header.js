@@ -53,44 +53,44 @@ class Header extends Component {
                   <Link to="#">Mes Projets</Link>
                   <ul className="submenu">
                     <li>
-                      <Link to="/2">
+                      <Link to= {`${process.env.PUBLIC_URL}/portfolio-detail/2`}>
                         Mika Piscine
                       </Link>
                     </li>
                     <li>
-                      <Link to="/3">
+                      <Link to={`${process.env.PUBLIC_URL}/portfolio-detail/3`}>
                         ArteNobilia
                       </Link>
                     </li>
                     <li>
-                      <Link to="/4">
+                      <Link to={`${process.env.PUBLIC_URL}/portfolio-detail/4`}>
                         Ecommerce
                       </Link>
                     </li>
                     <li>
-                      <Link to="/5">
+                      <Link to={`${process.env.PUBLIC_URL}/portfolio-detail/5`}>
                         Cannes Is Up
                       </Link>
                     </li>
                     <li>
-                      <Link to="/6">
+                      <Link to={`${process.env.PUBLIC_URL}/portfolio-detail/6`}>
                         Application météo
                       </Link>
                     </li>
                     <li>
-                      <Link to="/7">
+                      <Link to={`${process.env.PUBLIC_URL}/portfolio-detail/7`}>
                         Application Mercedes
                       </Link>
                     </li>
                     <li>
-                      <Link to="/8">
+                      <Link to={`${process.env.PUBLIC_URL}/portfolio-detail/8`}>
                         Configurateur 3008
                       </Link>
                     </li>
                   </ul>
                 </li>
                 <li >
-                  <Link to="/presentation">A propos</Link>
+                  <Link to={`${process.env.PUBLIC_URL}/presentation`}>A propos</Link>
                 </li>
                 <li>
                   <a href="/assets/models/cv.pdf" download>

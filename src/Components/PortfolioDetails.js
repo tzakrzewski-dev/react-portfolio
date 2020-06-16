@@ -215,7 +215,7 @@ class PortfolioDetails extends Component {
                         </h3>
                         <a
                           className="rn-btn text-black"
-                          href={`/${item.id}`}
+                          href={`${process.env.PUBLIC_URL}/portfolio-detail/${item.id}`}
                         >
                           <img key={item.id} src={item.images_1} alt=""></img>
                         </a>

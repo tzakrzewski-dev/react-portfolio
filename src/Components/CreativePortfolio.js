@@ -55,11 +55,11 @@ const CreativePortfolio = () => {
                 <div className="portfolio-style--3">
                   <div className="thumbnail">
                     <a
-                      href={`/${value.id}`}
+                      href={`/portefolio-detail/${value.id}`}
                     >
                       <img
                         className="w-100"
-                        src={`assets/images/portfolio/portfolio-${value.images}.png`}
+                        src={`${process.env.PUBLIC_URL}/assets/images/portfolio/portfolio-${value.images}.png`}
                         alt="Portfolio Images"
                       />
                     </a>
@@ -68,7 +68,7 @@ const CreativePortfolio = () => {
                     <p className="portfoliotype">{value.category}</p>
                     <h4 className="title">
                       <a
-                        href={`/${value.id}`}
+                        href={`${process.env.PUBLIC_URL}/portfolio-detail/${value.id}`}
                       >
                         {value.title}
                       </a>
@@ -76,7 +76,7 @@ const CreativePortfolio = () => {
                     <div className="portfolio-btn">
                       <a
                         className="rn-btn text-white"
-                        href={`/${value.id}`}
+                        href={`${process.env.PUBLIC_URL}/portfolio-detail/${value.id}`}
                       >
                         En savoir plus
                       </a>
