@@ -5,7 +5,8 @@ You will find differents projects developped in the last 3 months
 
 ### `screenshot`
 
-<img https://github.com/tzakrzewski-dev/react-portfolio/blob/master/public/assets/images/apropos/snapshot.jpg?raw=true/>
+<img src="https://github.com/tzakrzewski-dev/react-portfolio/blob/master/public/assets/images/apropos/snapshot.jpg?raw=true">
+
 
 
 
