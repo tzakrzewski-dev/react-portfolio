@@ -50,7 +50,7 @@ class Header extends Component {
             <nav className="mainmenunav d-lg-block">
               <ul className="mainmenu">
                 <li className="has-droupdown">
-                  <Link to="#">Mes Projets</Link>
+                  Mes Projets
                   <ul className="submenu">
                     <li>
                       <Link to={`${process.env.PUBLIC_URL}/portfolio-detail/2`}>

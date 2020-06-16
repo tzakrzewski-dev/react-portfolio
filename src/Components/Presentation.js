@@ -30,7 +30,7 @@ const DesignerPortfolio = () => {
                 <div className="col-lg-5">
                   <div className="designer-thumbnail text-center">
                     <img
-                      src={`${process.env.PUBLIC_URL}assets/images/apropos/teddy.jpg`}
+                      src={`${process.env.PUBLIC_URL}/assets/images/apropos/teddy.jpg`}
                       alt="Teddy Zakrzewski"
                     />
                   </div>
