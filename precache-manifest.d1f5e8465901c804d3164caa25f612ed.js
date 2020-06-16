@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "6adef94d4851e4ea7f0c25341a10bd37",
+    "revision": "92d270151319fe5f16e1e8dc48450262",
     "url": "/react-portfolio/index.html"
   },
   {
