@@ -59,7 +59,7 @@ const CreativePortfolio = () => {
                     >
                       <img
                         className="w-100"
-                        src={`${value.images}`}
+                        src={`${process.env.PUBLIC_URL}${value.images}`}
                         alt="Portfolio Images"
                       />
                     </a>
