@@ -76,7 +76,7 @@ const CreativePortfolio = () => {
                     <div className="portfolio-btn">
                       <a
                         className="rn-btn text-white"
-                        href={`${process.env.PUBLIC_URL}${value.id}`}
+                        href={`${process.env.PUBLIC_URL}/portfolio-detail/${value.id}`}
                       >
                         En savoir plus
                       </a>

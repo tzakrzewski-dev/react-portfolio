@@ -91,7 +91,6 @@ class PortfolioDetails extends Component {
           <div
             className={`rn-page-title-area pt--120 pb--190 bg_image bg_image--${item.id}`}
             data-black-overlay="7"
-         
           >
             <div className="container">
               <div className="row">
@@ -162,23 +161,32 @@ class PortfolioDetails extends Component {
                           <Player
                             playsInline
                             poster={item.poster_video}
-                            src={item.videolink}
+                            src={`${process.env.PUBLIC_URL}/${item.videolink}`}
                           />
                         )}
                       </div>
                       <div className="thumb mb--30">
                         {item.images_1 && (
-                          <img src={item.images_1} alt="Portfolio Images" />
+                          <img
+                            src={`${process.env.PUBLIC_URL}/${item.images_1}`}
+                            alt="Portfolio Images"
+                          />
                         )}
                       </div>
                       <div className="thumb mb--30">
                         {item.images_2 && (
-                          <img src={item.images_2} alt="Portfolio Images" />
+                          <img
+                            src={`${process.env.PUBLIC_URL}/${item.images_2}`}
+                            alt="Portfolio Images"
+                          />
                         )}
                       </div>
                       <div className="thumb mb--30">
                         {item.images_3 && (
-                          <img src={item.images_3} alt="Portfolio Images" />
+                          <img
+                            src={`${process.env.PUBLIC_URL}/${item.images_3}`}
+                            alt="Portfolio Images"
+                          />
                         )}
                       </div>
                     </div>
@@ -214,7 +222,11 @@ class PortfolioDetails extends Component {
                           className="rn-btn text-black"
                           href={`${process.env.PUBLIC_URL}/portfolio-detail/${item.id}`}
                         >
-                          <img key={item.id} src={item.images_1} alt=""></img>
+                          <img
+                            key={item.id}
+                            src={`${process.env.PUBLIC_URL}/${item.images_1}`}
+                            alt=""
+                          ></img>
                         </a>
                       </div>
                     ))}
