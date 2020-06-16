@@ -87,7 +87,7 @@ class HeaderFour extends Component {
             <nav className="mainmenunav d-lg-block">
               <ul className="mainmenu">
                 <li className="has-droupdown">
-                  Mes Projets
+                  <Link to="#">Mes Projets</Link>
                   <ul className="submenu">
                     <li>
                       <Link to={`${process.env.PUBLIC_URL}/portfolio-detail/2`}>
@@ -127,11 +127,9 @@ class HeaderFour extends Component {
                   </ul>
                 </li>
                 <li>
-                  <Link to={`${process.env.PUBLIC_URL}/presentation`}>
-                    A propos
-                  </Link>
+                  <Link to={`${process.env.PUBLIC_URL}/presentation`}>A propos</Link>
                 </li>
-                <li>
+                <li >
                   <a href="/assets/models/cv.pdf" download>
                     <span className="txtmenu ">Mon CV</span>
                   </a>

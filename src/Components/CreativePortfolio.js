@@ -59,7 +59,7 @@ const CreativePortfolio = () => {
                     >
                       <img
                         className="w-100"
-                        src={`${process.env.PUBLIC_URL}/assets/images/portfolio/portfolio-${value.images}.png`}
+                        src={`${process.env.PUBLIC_URL}${value.images}`}
                         alt="Portfolio Images"
                       />
                     </a>
@@ -76,7 +76,7 @@ const CreativePortfolio = () => {
                     <div className="portfolio-btn">
                       <a
                         className="rn-btn text-white"
-                        href={`${process.env.PUBLIC_URL}/portfolio-detail/${value.id}`}
+                        href={`${process.env.PUBLIC_URL}${value.id}`}
                       >
                         En savoir plus
                       </a>
