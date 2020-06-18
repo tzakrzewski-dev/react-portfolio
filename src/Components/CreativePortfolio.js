@@ -97,7 +97,7 @@ const CreativePortfolio = () => {
 
       {/* Start Back To Top */}
       <div className="backto-top" style={{ fontSize: 50 }}>
-        <ScrollToTop showUnder={160} style={{ bottom: "100px" }}>
+        <ScrollToTop showUnder={160} style={{ bottom: "100px", zIndex: 2000 }}>
           <FiChevronUp />
         </ScrollToTop>
       </div>
