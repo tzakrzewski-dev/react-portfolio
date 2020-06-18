@@ -41,20 +41,12 @@ const DesignerPortfolio = () => {
                     <h1 className="title" style={{ fontSize: "40px" }}>
                       Bonjour, je m'appelle Teddy.
                       <br />
-                      <TextLoop
-                        interval={1500}
-                        springConfig={{ stiffness: 180, damping: 8 }}
-                        fade={true}
-                      >
-                        <span >
-                          Developpeur Full Stack JavaScript.
-                        </span>
-                        <span >
-                          Front-End & Back-End.{" "}
-                        </span>
-                        <span >
-                          Je réside sur la Côte d'Azur.
-                        </span>
+                      <TextLoop>
+                        <div>
+                          <span>Developpeur Full Stack JavaScript.</span>
+                          <span>Front-End & Back-End. </span>
+                          <span>Je réside sur la Côte d'Azur.</span>
+                        </div>
                       </TextLoop>{" "}
                     </h1>
 

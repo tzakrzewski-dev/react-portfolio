@@ -39,12 +39,13 @@ const CreativePortfolio = () => {
         color="color-black"
       />
       {/* End Header */}
-
-      <Zoom {...zoomOutProperties}>
-        {data.imageSlide.map((each, index) => (
-          <img key={index} src={each.images} alt="" />
-        ))}
-      </Zoom>
+      <div style={{ margin: "0 30px" }}>
+        <Zoom {...zoomOutProperties}>
+          {data.imageSlide.map((each, index) => (
+            <img key={index} src={each.images} alt="" />
+          ))}
+        </Zoom>
+      </div>
 
       {/* Start Portfolio Area  */}
       <div className="creative-portfolio-wrapper bg_color--1">
@@ -54,7 +55,8 @@ const CreativePortfolio = () => {
               <div className="col-lg-3 col-md-6 col-12" key={i}>
                 <div className="portfolio-style--3">
                   <div className="thumbnail">
-                    <a href={`${process.env.PUBLIC_URL}/portfolio-detail/${value.id}`}
+                    <a
+                      href={`${process.env.PUBLIC_URL}/portfolio-detail/${value.id}`}
                     >
                       <img
                         className="w-100"
