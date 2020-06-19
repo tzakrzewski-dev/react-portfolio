@@ -42,11 +42,9 @@ const DesignerPortfolio = () => {
                       Bonjour, je m'appelle Teddy.
                       <br />
                       <TextLoop>
-                        <div>
-                          <span>Developpeur Full Stack JavaScript.</span>
-                          <span>Front-End & Back-End. </span>
-                          <span>Je réside sur la Côte d'Azur.</span>
-                        </div>
+                        <span>Developpeur Full Stack JavaScript.</span>
+                        <span>Front-End & Back-End. </span>
+                        <span>Je réside sur la Côte d'Azur.</span>
                       </TextLoop>{" "}
                     </h1>
 

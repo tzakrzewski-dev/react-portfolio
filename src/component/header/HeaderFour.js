@@ -158,7 +158,7 @@ class HeaderFour extends Component {
                 </li>
 
                 <li>
-                  <a href="mailto:contact@cannesisup.com">
+                  <a href="mailto:teddy.zakrzewski@outlook.fr">
                     {" "}
                     <FaEnvelope size={30} />{" "}
                     <span className="txtmenu ">Contact</span>
