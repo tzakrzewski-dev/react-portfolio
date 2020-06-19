@@ -22,6 +22,7 @@ import data from "../../data/data.json";
 const zoomOutProperties = {
   duration: 5000,
   transitionDuration: 500,
+  pauseOnHover: true,
   infinite: true,
   indicators: true,
   scale: 0.4,
@@ -42,8 +43,8 @@ const CreativePortfolio = () => {
       <div style={{ margin: "0 30px" }}>
         <Zoom {...zoomOutProperties}>
           {data.imageSlide.map((each, index) => (
-            <img key={index} src={each.images} alt="" />
-          ))}
+            <img key={index} src={each.images} alt="" style={{width:'100%'}} />
+          )) }
         </Zoom>
       </div>
 
