@@ -134,7 +134,7 @@
       "subtitle": "Réalisation d'un configurateur de véhicule pour choisir la  couleur des éléments. Travail du modèle 3D sous Blender pour identifier les élements sur lesquels on souhaite agir ",
       "date": "Mai 2020",
       "logiciels": "Vscode/Git",
-      "technos": "React,",
+      "technos": "React",
       "framework": "Three.js",
       "poster_video": "assets/images/portfolio/portfolio-video-07.jpg",
       "videolink": "assets/video/configurateur.webm",
