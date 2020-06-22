@@ -3,6 +3,7 @@ import { Col, Row } from "react-bootstrap";
 
 import { FaLinkedinIn, FaGithub } from "react-icons/fa";
 
+
 /*
  *Import des datas
  */
@@ -75,6 +76,7 @@ class PortfolioDetails extends Component {
   }
 
   render() {
+    
     let itemList = data.PortfolioList.filter(
       (opt) =>
         opt.id ===
@@ -87,6 +89,8 @@ class PortfolioDetails extends Component {
       return (
         <React.Fragment>
           <Header headertransparent="header--transparent" />
+     
+        
           {/* Start Breadcrump Area */}
           <div
             className={`rn-page-title-area pt--120 pb--190 bg_image `}
@@ -247,6 +251,7 @@ class PortfolioDetails extends Component {
             </ScrollToTop>
           </div>
           {/* End Back To Top */}
+          
           <Footer />
         </React.Fragment>
       );

@@ -9,6 +9,8 @@ import {
   FaProjectDiagram,
 } from "react-icons/fa";
 
+import LineDrawing from "../Linedrawing/Linedrawing";
+
 class Header extends Component {
   constructor(props) {
     super(props);
@@ -48,7 +50,7 @@ class Header extends Component {
             <div className="logo">
               <a href={`${process.env.PUBLIC_URL}/`}>
                 <h3 className="title" style={{ color: "#1da1f2" }}>
-                  Teddy <strong> Zakrzewski</strong>
+                  <LineDrawing />
                 </h3>
               </a>
             </div>

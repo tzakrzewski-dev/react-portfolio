@@ -1,11 +1,11 @@
 import React from "react";
+import Particules from "../component/Particules/Particules";
 
 /*
  *Import des components
  */
 import Header from "../component/header/HeaderFour";
 import Footer from "../component/footer/Footer";
-
 /*
  *Import des dependencies
  */
@@ -18,6 +18,7 @@ import { Zoom } from "react-slideshow-image"; //Import du slide
  */
 
 import data from "../../data/data.json";
+import ParticlesBg from "particles-bg";
 
 const zoomOutProperties = {
   duration: 5000,
@@ -40,11 +41,23 @@ const CreativePortfolio = () => {
         color="color-black"
       />
       {/* End Header */}
+      <ParticlesBg
+        color="#1da1f2"
+        num={100}
+        type="cobweb"
+        bg={true}
+      ></ParticlesBg>
+
       <div style={{ margin: "0 30px" }}>
         <Zoom {...zoomOutProperties}>
           {data.imageSlide.map((each, index) => (
-            <img key={index} src={each.images} alt="" style={{width:'100%'}} />
-          )) }
+            <img
+              key={index}
+              src={each.images}
+              alt=""
+              style={{ width: "100%" }}
+            />
+          ))}
         </Zoom>
       </div>
 

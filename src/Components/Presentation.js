@@ -6,10 +6,17 @@ import Footer from "../component/footer/Footer";
 import Header from "../component/header/HeaderFour";
 import { FiChevronUp } from "react-icons/fi";
 import data from "../../data/data.json";
+import ParticlesBg from "particles-bg";
 
 const DesignerPortfolio = () => {
   return (
     <div>
+         <ParticlesBg
+        color="#1da1f2"
+        num={150}
+        type="cobweb"        
+        bg={true}
+      ></ParticlesBg>
       {/* Start Header Area  */}
       <Header
         headerPosition="header--static"
@@ -22,7 +29,7 @@ const DesignerPortfolio = () => {
         {/* Start Single Slide */}
         {data.presentation.map((value, index) => (
           <div
-            className="slide designer-portfolio slider-style-3  d-flex align-items-center justify-content-center bg_color--5 rn-slider-height"
+            className="slide designer-portfolio slider-style-3  d-flex align-items-center justify-content-center  rn-slider-height"
             key={index}
           >
             <div className="container">
