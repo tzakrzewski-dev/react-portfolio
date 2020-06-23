@@ -11,7 +11,8 @@ import PortfolioDetails from "./Components/PortfolioDetails";
 import CreativePortfolio from "./Components/CreativePortfolio";
 import Configurator from "./component/configurator/Configurator";
 import Presentation from "./Components/Presentation";
-import LineDrawing from "./component/Linedrawing/Linedrawing";
+import Particules2 from './component/Particules/Particules2'
+
 
 class Root extends Component {
   render() {
@@ -39,10 +40,11 @@ class Root extends Component {
             path={`${process.env.PUBLIC_URL}/configurator`}
             component={Configurator}
           />
-          <Route
+        
+            <Route
             exact
-            path={`${process.env.PUBLIC_URL}/test`}
-            component={LineDrawing}
+            path={`${process.env.PUBLIC_URL}/test2`}
+            component={Particules2}
           />
         </Switch>
       </BrowserRouter>

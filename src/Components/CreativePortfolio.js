@@ -1,5 +1,4 @@
 import React from "react";
-import Particules from "../component/Particules/Particules";
 
 /*
  *Import des components
@@ -19,6 +18,8 @@ import { Zoom } from "react-slideshow-image"; //Import du slide
 
 import data from "../../data/data.json";
 import ParticlesBg from "particles-bg";
+
+import Skyboxtest from "../component/Skybox/Skyboxtest";
 
 const zoomOutProperties = {
   duration: 5000,
@@ -41,13 +42,12 @@ const CreativePortfolio = () => {
         color="color-black"
       />
       {/* End Header */}
-      <ParticlesBg
-        color="#1da1f2"
-        num={100}
-        type="cobweb"
-        bg={true}
-      ></ParticlesBg>
 
+      
+      <div  style={{height:'50vh',paddingLeft:'30px',paddingRight:'30px'}}>
+        <Skyboxtest />
+      </div>
+     
       <div style={{ margin: "0 30px" }}>
         <Zoom {...zoomOutProperties}>
           {data.imageSlide.map((each, index) => (
@@ -104,6 +104,9 @@ const CreativePortfolio = () => {
         </div>
       </div>
       {/* End Portfolio Area  */}
+
+      {/* Start Portfolio Area  */}
+
 
       {/* Start Footer Style  */}
       <Footer />
