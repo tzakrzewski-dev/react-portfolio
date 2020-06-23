@@ -30,7 +30,7 @@ const CameraControls = () => {
       ref={controls}
       args={[camera, domElement]}
       autoRotate={true}
-      autoRotateSpeed={.5}
+      autoRotateSpeed={0.5}
       enableZoom={false}
     />
   );
@@ -42,12 +42,12 @@ function SkyBox() {
   const loader = new CubeTextureLoader();
   // The CubeTextureLoader load method takes an array of urls representing all 6 sides of the cube.
   const texture = loader.load([
-    "/assets/skybox/right.jpg",
-    "/assets/skybox/left.jpg",
-    "/assets/skybox/top.jpg",
-    "/assets/skybox/bottom.jpg",
-    "/assets/skybox/back.jpg",
-    "/assets/skybox/front.jpg",
+    `${process.env.PUBLIC_URL}/assets/skybox/right.jpg`,
+    `${process.env.PUBLIC_URL}/assets/skybox/left.jpg`,
+    `${process.env.PUBLIC_URL}/assets/skybox/top.jpg`,
+    `${process.env.PUBLIC_URL}/assets/skybox/bottom.jpg`,
+    `${process.env.PUBLIC_URL}/assets/skybox/back.jpg`,
+    `${process.env.PUBLIC_URL}/assets/skybox/front.jpg`,
   ]);
 
   // Set the scene background property to the resulting texture.
