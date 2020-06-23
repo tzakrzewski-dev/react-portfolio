@@ -9,7 +9,7 @@ export default function Particules() {
     <div>
       <ParticlesBg
         color="#1da1f2"
-        num={100}
+        num={60}
         type="cobweb"        
         bg={true}
       ></ParticlesBg>

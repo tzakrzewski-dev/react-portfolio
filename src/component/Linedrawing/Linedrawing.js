@@ -7,7 +7,7 @@ export default class Linedrawing extends Component {
       targets: ".st0",
       strokeDashoffset: [anime.setDashoffset, 0],
       easing: "easeInOutQuad",
-      duration: 5000,
+      duration: 3000,
       direction: "alternate",
       loop: true,
     });

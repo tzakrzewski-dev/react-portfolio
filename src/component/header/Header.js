@@ -46,7 +46,7 @@ class Header extends Component {
     return (
       <header className={`header-area formobile-menu header--transparent`}>
         <div className="header-wrapper" id="header-wrapper">
-          <div className="header-left">
+          <div className="header-left" style={{marginTop:'15px'}}>
             <div className="logo">
               <a href={`${process.env.PUBLIC_URL}/`}>
                 <h3 className="title" style={{ color: "#1da1f2" }}>
