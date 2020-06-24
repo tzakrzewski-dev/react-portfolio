@@ -44,11 +44,11 @@ const CreativePortfolio = () => {
       {/* End Header */}
 
       
-      <div  style={{height:'50vh',paddingLeft:'30px',paddingRight:'30px'}}>
+      <div  style={{height:'50vh',paddingLeft:'30px',paddingRight:'30px',margin:'40px 0'}}>
         <Skyboxtest />
       </div>
      
-      <div style={{ margin: "0 30px" }}>
+      <div style={{ margin: "30px 30px" }}>
         <Zoom {...zoomOutProperties}>
           {data.imageSlide.map((each, index) => (
             <img
